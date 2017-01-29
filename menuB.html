@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/fce54115db.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Neucha|Nothing+You+Could+Do|Raleway|Slabo+27px|Homemade+Apple|Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img alt="Brand" src="assets/images/small_franklin_logo.png">
+            </a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown menuOption">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>MENU</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="menu.html">Breakfast Menu</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="menuB.html">Lunch Menu</a></li>
+                        </ul>
+                    </li>
+                    <li class="menuOption"><a href="#anchor2"><b>ORDERING</b></a></li>
+                    <li class="menuOption"><a href="#anchor2"><b>CONTACT</b></a></li>
+                </ul>
+                <p class="navbar-text"><i class="fa fa-phone-square" aria-hidden="true"> <span id="phone">(609) 896-1848</span></i></p>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active">LUNCH MENU</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row" id="breakfastRow">
+            <div class="col-md-8 col-md-offset-2 col-xs-12" id="breakFastBackDrop">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12" id="breakMenuHeading">
+                        <h2><b>LUNCH MENU</b></h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h4><b>SANDWICHES</b></h4>
+                    <p><i>(Served w/Cheese, Lettuce, Tomato</i></p>
+                    <p><i>Onions, Hot & Sweet Peppers)</i></p>
+                    <p>Hoagies - 6.95</p>
+                    <p>Deli Sandwiches - 5.95</p>
+                    <p>Wraps - 6.49</p>
+                    <p>Club Sandwiches - 7.95</p>
+                    <br>
+                    <p><b>Add ons</b></p>
+                    <p>Cranberry Chicken Salad - 1.00</p>
+                    <p>Roasted Red Peppers</p>
+                    <p>Bacon - 1.00</p>
+                    <p>Cod or Grouper - 2.00</p>
+                    <p>Extra meat - 2.00</p>
+                    <br>
+                    <h4><b>SPECIALTY SANDWICHES</b></h4>
+                    <p>Prepared as Sandwich - 5.95</p>
+                    <p>Prepared as a Wrap - 6.49</p>
+                    <p>Prepared as a Hoagie - 6.95</p>
+                    <br>
+                    <i><b>Choose from...</b></i>
+                    <p>Cajun Turkey</p>
+                    <p>Curry Chicken Salad w/ Grapes</p>
+                    <p>Mozzarella Basil Tomato</p>
+                    <p>Pesto Chicken with Olives</p>
+                    <p>Portobello Pesto</p>
+                    <p>Pub-Style Roast Beef</p>
+                    <p>Smoked Turkey on Sesame Hero</p>
+                    <br>
+                    <h4><b>PHILLY STEAK SANDWICH</b></h4>
+                    <p><i>(Available with or without onions, </i></p>
+                    <p><i>chicken steak also available)</i></p>
+                    <p>Plain Steak - 5.49</p>
+                    <p>Cheese Steak - 5.95</p>
+                    <p>Cali - 6.49</p>
+                    <p>Cheesesteak Special - 6.49</p>
+                    <p>Buffalo Chicken w/ Bleu Cheese - 6.95</p>
+                    <p>Chambersburg - 6.95</p>
+                    <p>Cheddar Bacon - 7.49</p>
+                    <p>Philly Swiss Melt - 7.49</p>
+                    <br>
+                    <h4><b>NATHANS FAMOUS HOT DOGS</b></h4>
+                    <p>Hot Dog w/ Kraut - 4.95</p>
+                    <p>Italian Hot Dog - 5.95</p>
+                    <p>Chili Cheese Dog - 6.95</p>
+                    <br>
+                    <h4><b>WINGS</b></h4>
+                    <p><i>Select from Buffalo, BBQ, or Oriental</i></p>
+                    <p><i>Bleu Cheese and Celery (Upon Request)</i> - 0.50</p>
+                    <p>6 Piece - 4.95</p>
+                    <p>12 Piece - 9.49</p>
+                    <p>24 Piece - 18.95</p>
+                    <p>100+ - <i>Call</i></p>
+                    <br>
+                    <h4><b>TACOS</b></h4>
+                    <p>Vegetarian - 7.95</p>
+                    <p>Chicken - 7.95</p>
+                    <br>
+                    <h4><b>SIDES</b></h4>
+                    <p>French Fries - 2.59</p>
+                    <p>Onion Rings - 3.95</p>
+                    <p>Mozzarella Sticks - 4.59</p>
+                    <p>3 Chicken Tenders - 5.95</p>
+
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <h4><b>GRILLED CHEESE</b></h4>
+                    <p><i>(Choose from American, Swiss,</i></p>
+                    <p><i>Provolone, Meunster, Pepper Jack)</i></p>
+                    <p>Classic America - 3.95</p>
+                    <p>Grilled Cheese on Wheat or Rye - 4.49</p>
+                    <p>Grilled Ham, Turkey, Cappicola & Cheese - 5.95</p>  
+                    <br>
+                    <h4><b>HOT CLASSICS</b></h4>
+                    <p>BLT - 4.95</p>
+                    <p>BBQ Pork - 5.95</p>
+                    <p>Chicken Parmesan - 5.95</p>
+                    <p>Meatball Parmesan - 5.95</p>
+                    <p>Hot/Sweet Sausage w/ Peppers,</p>
+                    <p>Onions, Red Sauce - 5.95</p>
+                    <p>Buffalo Chicken Strip - 6.96</p>
+                    <p>Cuban w/ Swiss - 6.96</p>
+                    <p>Hot Pastrami - 6.95</p>
+                    <p>Italian Chicken - 6.96</p>  
+                    <p>Reuben - 6.96</p>
+                    <p>Tuna Melt - 6.96</p>
+                    <p>Turkey Melt - 6.95</p>
+                    <p>Grilled Chicken Portabella</p>
+                    <p>w/ Roasted Red Peppers - 8.95</p>
+                    <br>
+                    <h4><b>BURGERS</b></h4>
+                    <p>Served w/Pickle, Mushroom, Lettuce,</p>
+                    <p>Tomato, Onion, Cheese(Upon Request)</p>
+                    <p>Add mini French Fries - 1.00</p>
+                    <p>Add mini Onion Rings - 1.00</p>
+                    <p>Make it Double - 2.00</p>
+                    <p>Burger - 4.95</p>
+                    <p>Cowboy Bob - 5.95</p>
+                    <p>Bacon Cheddar Burger - 5.95</p>
+                    <p>Cheddar Melt - 5.95</p>
+                    <p>Chili Cheese - 5.95</p>
+                    <p>Trenton Burger - 5.95</p>
+                    <br>
+                    <h4><b>GRILLED HAND-TRIMMED CHICKEN</b></h4>
+                    <p>Crispy add - 1.00</p>
+                    <p>Balsamic - 5.95</p>
+                    <p>Islander - 5.95</p>
+                    <p>Oriental - 5.95</p>
+                    <p>Bacon Caesar - 6.95</p>
+                    <p>Bacon Ranch - 6.95</p>
+                    <p>Southwest - 6.96</p>
+                    <p>Portabella Deluxe - 8.95</p>
+                    <br>
+                    <h4><b>GOLDEN PLATTERS</b></h4>
+                    <p><i>Served w/ French Fries, Cole Slaw, Pickle</i></p>
+                    <p>Fish & Chips - 9.95</p>
+                    <p>Grouper - 9.95</p>
+                    <br>
+                    <h4><b>BENTO BOX</b></h4>
+                    <p><i>Served w/Rice, Vegetables & Pot Stickers</i></p>
+                    <p><i>Served with Hot Sauce (Upon Request)</i></p>
+                    <p>Bulgogi Beef - 7.95</p>
+                    <p>Chicken Teriyaki - 7.95</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <hr>
+                        <h3><b>SOUPS & SALADS</b></h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <h4><b>SOUPS</b></h4>
+                        <p>Homemade Chili</p>
+                        <p>Small - 3.49</p>
+                        <p>Large - 6.49</p>
+                        <p>Over Rice - 6.95</p>
+                        <p>Chicken Stew, Beans, over Rice - 7.95</p>
+                        <br>
+                        <p><b><i>Call in for our soup of the day!</i></b></p>
+                        <p>Small - 2.95</p>
+                        <p>Large - 5.95</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h4><b>HOUSE SALADS</b></h4>
+                        <p>Garden - 4.95</p>
+                        <p>Caesar - 4.95</p>
+                        <br>
+                        <p><b><i>Add Ons</i></b></p>
+                        <p>Extra Dressing - 0.50</p>
+                        <p>Grilled Chicken, Tuna Salad, Chicken Salad - 2.00</p>
+                        <p>Cranberry Chicken Salad, Egg Salad, Chef Salad - 3.00</p>
+                        <p>Crispy Chicken - 3.00</p>
+                        <p>Cod - 3.00</p>
+                        <p>Grouper - 3.00</p>
+                        <p>Balsamic Grilled Chicken - 6.95</p>
+                        <p>Sesame Ginger Chicken - 6.95</p>
+                        <p>Sesame Ginger Cutlet - 7.95</p>
+                        <p>Buffalo Grilled Chicken - 6.95</p>
+                        <p>Buffalo Crispy Chicken - 7.96</p>
+                        <p>Bacon Chicken Ranch w/ Sliced Eggs "Cobb" - 8.95</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12" id="menuBtnBox">
+                        <hr>
+                        <a href="fc_menu.pdf" class="btn btn-custom btn-lg">PRINT</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12 footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-3 col-xs-12 footerInfoA">
+                            <img class="img-responsive footerLogo" src="assets/images/franklin_logo.png">
+                            <br>
+                            <p>Franklin Corner Deli has been a family run business since 1979 and is dedicated to serving our local community with personal warmth and care.</p>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1 col-xs-12 footerInfoB" id="anchor2">
+                            <p><b>CONTACT US</b></p>
+                            <p><b>Phone:</b> (609) 896-1848</p>
+                            <p><b>Email:</b> FranklinCorner@gmail.com</p>
+                            <p><b>Address:</b> 177 Franklin Corner Rd.</p>
+                            <p>Lawrence Township, NJ 08648</p>
+                            <br>
+                            <p><b>FOLLOW US</b></p>
+                            <a href="https://www.facebook.com/Franklin-Corner-Deli-433975373307065" target="_blank"><i class="fa fa-facebook-official fa-lg" id="iconA" aria-hidden="true"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true" id="iconB"></i></a>
+                            <a href="https://www.yelp.com/biz/franklin-corner-deli-caterers-lawrence-2" target="_blank"><i class="fa fa-yelp fa-lg" aria-hidden="true" id="iconC"></i></a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 footerInfoC">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    
+$(document).ready(function(){
+
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+
+});
+
+</script>
+
+</body>
+
+</html>
