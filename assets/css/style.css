@@ -245,7 +245,7 @@ a.btn-custom:hover {
 .menuImg {
     display: block;
     margin: 0 auto;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 .figRed {
@@ -257,6 +257,11 @@ a.btn-custom:hover {
 .menuHeading {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#orderBtnRow {
+    text-align: center;
+    padding-bottom: 3vh;
 }
 
 #quote {
@@ -350,6 +355,7 @@ ol.breadcrumb > li.active {
     color: #e0e0e0;
     font-family: 'Raleway', sans-serif;
     border-radius: 0;
+    margin-right: 2vw;
 }
 
 .btn-custom:hover {
@@ -364,6 +370,28 @@ ol.breadcrumb > li.active {
 
 .btn-custom:active {
     background-color: #174c77;
+    color: #e0e0e0;
+}
+
+.btn-customB {
+    background-color: #187701;
+    color: #e0e0e0;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 0;
+}
+
+.btn-customB:hover {
+    background-color: #187701;
+    color: #e0e0e0;
+}
+
+.btn-customB:visited {
+    background-color: #187701;
+    color: #e0e0e0;
+}
+
+.btn-customB:active {
+    background-color: #187701;
     color: #e0e0e0;
 }
 
