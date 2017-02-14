@@ -423,13 +423,19 @@ ol.breadcrumb > li.active {
     }
 
     #bannerSlogan {
-        margin-top: 20vh;
-        font-size: 3em;
+        margin-top: 21.5vh;
+        font-size: 4em;
     }
 
     .bannerSub {
-        font-size: 1.5em;
+        display: none;
     }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
 }
 
 @media only screen and (max-device-width: 1024px) {
