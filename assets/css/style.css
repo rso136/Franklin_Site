@@ -17,7 +17,7 @@ a.btn-custom:hover {
 }
 
 .navbar-custom {
-  min-height: 12.3vh;
+  min-height: 11vh;
   border-color: transparent;
   border-radius: 0;
   margin-bottom: 0;
@@ -69,7 +69,10 @@ a.btn-custom:hover {
 }
 
 .navbar-brand {
-    padding-top: 2vh;
+    padding-top: 4vh;
+    margin-right: 1.5vw;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.5em;
 }
 
 .navbar-toggle {
@@ -85,7 +88,7 @@ a.btn-custom:hover {
 }
 
 .banner {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     /*max-height: 50%;*/
     max-width: 100%;
@@ -103,7 +106,7 @@ a.btn-custom:hover {
     font-size: 5.5em;
     /*font-family: 'Neucha', cursive;*/
     /*font-family: 'Architects Daughter', cursive;*/
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Parisienne', cursive;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -411,6 +414,22 @@ ol.breadcrumb > li.active {
 
 .footerInfoB .fa {
     color: #979899; 
+}
+
+@media only screen and (max-width: 500px) {
+
+    .banner {
+        height: 400px;
+    }
+
+    #bannerSlogan {
+        margin-top: 20vh;
+        font-size: 3em;
+    }
+
+    .bannerSub {
+        font-size: 1.5em;
+    }
 }
 
 @media only screen and (max-device-width: 1024px) {
